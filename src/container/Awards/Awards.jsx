@@ -10,7 +10,8 @@ const AwardCard = ({ award: { imgUrl, title, score, region, year } }) => (
     <div className="app__laurels_awards-card_content">
       <p className="p__cormorant" style={{ color: '#DCCA87' }}>{title}</p>
       <p className="p__opensans color-black"><strong>Origin:</strong> {score}</p>
-      <p className="p__opensans color-black"><strong>Region:</strong> {region}</p>
+      <p className="p__opensans color-black"><strong>Grape variety:</strong> {region}</p>
+      <p className="p__opensans color-black"><strong>Soil:</strong> {year}</p>
       <p className="p__opensans color-black"><strong>Description:</strong> {year}</p>
     </div>
   </div>
