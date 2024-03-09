@@ -17,22 +17,26 @@ import glassWine from '../assets/glass-wine.png';
 import glassWineNotEmpty from '../assets/glass-wine-not-empty.png';
 import rotateWineGlass from '../assets/glass-wine-rotate.png';
 import bottleDesign from '../assets/bottle-design.png';
-import alscBottle from '../assets/Arneis.png';
-import bdxBottle from '../assets/Gavi1.png';
-import burgBottle from '../assets/Gavi2.png';
 import champBottle from '../assets/champ-bottle.png';
 import silver2023 from '../assets/silver-2023.png';
-import gold2023 from '../assets/Barbaresco.png';
-import plat2023 from '../assets/Barolo1.png';
+import gold2023 from '../assets/Barbaresco2.png';
+import plat2023 from '../assets/Barolo2.png';
 import bis2023 from '../assets/bis-2023.png';
 import wineBottles from '../assets/wine-bottles.jpg';
 import logowinery from '../assets/logo.png';
+import gavi1 from '../assets/Gavi1.png';
+import gavi2 from '../assets/Gavi2.png';
+import barolo from '../assets/Barolo1.png';
+import arneis from '../assets/Arneis.png';
+import barbaresco from '../assets/Barbaresco.png';
+import moscato from '../assets/moscatoasti.png';
+import nebbiolo from '../assets/nebbiolo.png';
+import dolcetto from '../assets/dolcettoalba.png';
+import barberaalba from '../assets/barberaalba.png';
+import barberaasti from '../assets/barberaasti.png';
 
 export default {
   founder,
-  alscBottle,
-  bdxBottle,
-  burgBottle,
   champBottle,
   gallery01,
   gallery02,
@@ -58,4 +62,14 @@ export default {
   plat2023,
   wineBottles,
   logowinery,
+  gavi1,
+  gavi2,
+  barbaresco,
+  barolo,
+  arneis,
+  barberaalba,
+  barberaasti,
+  moscato,
+  nebbiolo,
+  dolcetto,
 };

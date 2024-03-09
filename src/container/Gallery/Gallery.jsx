@@ -19,16 +19,15 @@ const Gallery = () => {
   };
 
   return (
-    <div className="app__gallery flex__center">
+    <div className="app__gallery flex__center" id="gallery">
       <div className="app__gallery-content">
-        <SubHeading title="Langhe, Roero & Gavi" color="white" />
+        <SubHeading title="Langhe, Monferrato & Gavi" color="white" />
         <h1 className="headtext__cormorant">Wine Gallery</h1>
         <p className="p__opensans" style={{ color: '#AAAAAA', marginTop: '2rem' }}>The estate&apos;s elevation and dedication to hand cultivation contribute to the production of exceptional wines, particularly the Gavi of the Municipality of Gavi, with its soil rich in abundant mineral components.</p>
-        <button type="button" className="custom__button">Special Promotion</button>
       </div>
       <div className="app__gallery-images">
         <div className="app__gallery-images_container" ref={scrollRef}>
-          {[images.bdxBottle, images.burgBottle, images.alscBottle].map((image, index) => (
+          {[images.gavi1, images.gavi2, images.barolo, images.barbaresco, images.arneis, images.nebbiolo, images.barberaalba, images.barberaasti, images.dolcetto, images.moscato].map((image, index) => (
             <div className="app__bottle-images_card flex__center" key={`gallery_image-${index + 1}`}>
               <img src={image} alt="gallery_image" className="bottle__image" />
               <p className="bottle__image-price">----</p>

@@ -14,9 +14,9 @@ const Footer = () => (
     <div className="app__footer-links">
       <div className="app__footer-links_contact">
         <h1 className="app__footer-headtext">Contact Us</h1>
-        <p className="p__opensans color-black">9 W 53rd St, New York, NY 10019, USA</p>
-        <p className="p__opensans color-black">+1 212-344-1230</p>
-        <p className="p__opensans color-black">+1 212-555-1230</p>
+        <p className="p__opensans color-black">Loc. Ronconuovo 13, Neviglie, 12050 (CN)</p>
+        <p className="p__opensans color-black">+39 0173 630228</p>
+        <p className="p__opensans color-black">E-Mail:</p>
       </div>
 
       <div className="app__footer-links_logo">
