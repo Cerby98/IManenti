@@ -48,15 +48,15 @@ const awards = [
   {
     imgUrl: images.barolo,
     title: 'Barolo DOCG',
-    score: 'Novello and Barolo',
-    region: 'Italy, Piedmont',
-    year: 'Made from Nebbiolo grapes, this magnificent red, known as the king of wines and the wine of kings is a showpiece of piedmontese wine-making. A wine for big  occasions, it charms and win over the palate with its power and body, leaving a lovely sensation of warmth. Garnet red with orange highlights, it has an intense, ethereal, characteristic bouquet together with a full-bodied dry taste which is rich, smooth and well-balanced. A superior wine, at its very best with roasts and game.',
+    score: 'Novello and Barolo, Piedmont, Italy',
+    region: '100% Nebbiolo',
+    year: 'Barolo is a powerful and full-bodied red wine, often referred to as "the king of wines" for its prestigious reputation. Made from Nebbiolo grapes, it showcases the best of Piedmontese winemaking.',
   },
   {
     imgUrl: images.barbaresco,
     title: 'Barbaresco Riserva DOCG',
-    score: 'Neive and Treiso',
-    region: 'Italy, Piedmont',
+    score: 'Neive and Treiso, Piedmont, Italy',
+    region: '100% Nebbiolo',
     year: 'This Barbaresco is a complex wine, whose nose has a distinctive hint of roses and violets. With its deep ruby red color, it has a refined and smooth taste and has a slight aroma of ripe plum, liquorice, spices and chocolate. Soft tannins give a particular sensation of sweetness and a long velvet finish. Excellent for serving with red meat courses and cheeses, but also as a sipping wine.',
   },
   {
