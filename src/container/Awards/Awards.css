@@ -38,7 +38,7 @@
   .app__laurels_awards-card {
     display: flex; /* Make the card a flex container */
     flex-wrap: wrap; /* Wrap content if it overflows */
-    min-width: auto; /* Remove or adjust min-width */
+    min-width: 100%; /* Remove or adjust min-width */
   }
     .app__laurels_awards-card img {
     width: auto;
