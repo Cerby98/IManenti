@@ -72,7 +72,7 @@ const awards = [
     grapevariety: '100% Cortese',
     soil: 'Calcareous marlstone',
     ageing: '2 months in stainless steel tanks and 2 months in bottle',
-    description: 'Gavi di Gavi DOCG is complex white Italian wine, aged traditionally with modern touches. Great with fish and appetizers.',
+    description: 'The Bric Sassi, is a perfect union between the territory and the climate. The result is a complex wine, worked traditionally using modern techniques. A wine of excellent finesse and complexity, with a surprisingly long life.',
     link: 'https://drive.google.com/file/d/1O4qXCKyb6oXC6vlwy4GRhSdRIVw7pBFr/view?usp=drive_link',
   },
   {
