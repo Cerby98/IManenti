@@ -34,7 +34,7 @@
     margin-left: 1rem;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 450px) {
   .app__laurels_awards-card {
     display: flex; /* Make the card a flex container */
     flex-wrap: wrap; /* Wrap content if it overflows */
