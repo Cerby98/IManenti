@@ -48,6 +48,7 @@
   .app__laurels_awards-card_content {
     display: flex;
     flex-direction: column; /* Keep content stacked vertically */
+    margin-left: none;
   }
 }
 .button-container {
