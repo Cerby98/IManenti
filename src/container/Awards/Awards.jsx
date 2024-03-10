@@ -26,7 +26,7 @@ const AwardCard = ({ award: { imgUrl, title, origin, grapevariety, soil, ageing,
 const Awards = () => (
   <div className="app__bg app__wrapper section__padding" id="awards">
     <div className="app__wrapper_info">
-      <SubHeading title="Awards" color="black" />
+      <SubHeading title="Get lost in the tastes of our wines" color="black" />
       <h1 className="headtext__cormorant">Our Wines</h1>
 
       <div className="app__laurels_awards">

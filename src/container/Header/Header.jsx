@@ -21,7 +21,7 @@ const Header = () => {
   return (
     <div className="app__header app__wrapper section__padding" id="home">
       <div className="app__wrapper_info">
-        <SubHeading title="Chase the new flavour" color="white" />
+        <SubHeading title="Where rolling hills whisper secrets of the wine" color="white" />
         <h1 className="app__header-h1">The Spirit of Piedmont</h1>
         <p className="p__opensans" style={{ margin: '2rem 0' }}>The origin of the Manenti family dates to 1320 in Venice, one of the four Maritime Republics known as the Serenissima. The family&apos;s legacy intertwines with the evolution of vine cultivation, influenced by the events of the Serenissima and the estates built by the Genoese nobility on the hills of our present-day Manenti estate. </p>
         <button type="button" className="custom__button">Explore Menu</button>

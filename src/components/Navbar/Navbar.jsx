@@ -15,8 +15,8 @@ const Navbar = () => {
       <ul className="app__navbar-links">
         <li className="p__opensans"><a href="#home">Home</a></li>
         <li className="p__opensans"><a href="#about">About</a></li>
-        <li className="p__opensans"><a href="#gallery">Wines</a></li>
-        <li className="p__opensans"><a href="#awards">Awards</a></li>
+        <li className="p__opensans"><a href="#gallery">Gallery</a></li>
+        <li className="p__opensans"><a href="#awards">Our wines</a></li>
         <li className="contact-button"><a href="#login">Contact</a></li>
       </ul>
       <div className="app__navbar-login">
@@ -30,8 +30,8 @@ const Navbar = () => {
             <ul className="app__navbar-hamburger_links">
               <li><a href="#home" onClick={() => setToggleMenu(false)}>Home</a></li>
               <li><a href="#about" onClick={() => setToggleMenu(false)}>About</a></li>
-              <li><a href="#gallery" onClick={() => setToggleMenu(false)}>Wines</a></li>
-              <li><a href="#awards" onClick={() => setToggleMenu(false)}>Awards</a></li>
+              <li><a href="#gallery" onClick={() => setToggleMenu(false)}>Galley</a></li>
+              <li><a href="#awards" onClick={() => setToggleMenu(false)}>Our wines</a></li>
               <li><a href="#login" onClick={() => setToggleMenu(false)}>Contact</a></li>
             </ul>
           </div>
@@ -45,8 +45,8 @@ const Navbar = () => {
             <ul className="app__navbar-smallscreen_links">
               <li><a href="#home" onClick={() => setToggleMenu(false)}>Home</a></li>
               <li><a href="#about" onClick={() => setToggleMenu(false)}>About</a></li>
-              <li><a href="#gallery" onClick={() => setToggleMenu(false)}>Wines</a></li>
-              <li><a href="#awards" onClick={() => setToggleMenu(false)}>Awards</a></li>
+              <li><a href="#gallery" onClick={() => setToggleMenu(false)}>Gallery</a></li>
+              <li><a href="#awards" onClick={() => setToggleMenu(false)}>Our wines</a></li>
               <li><a href="#login" onClick={() => setToggleMenu(false)}>Contact</a></li>
             </ul>
           </div>
