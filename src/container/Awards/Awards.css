@@ -40,3 +40,53 @@
         margin: 1rem 0;
     }
 }
+.button-container {
+    display: flex;
+    justify-content: center;
+     align-items: center; /* Added property for vertical centering */
+}
+.custom__button_award {
+    background-color: var(--color-black); /* Default background color */
+    color: var(--color-golden); /* Default text color */
+    font-family: var(--font-base);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    line-height: 28px;
+    font-size: 16px;
+    max-width: 200px; /* Adjust max-width as needed */
+    padding: 10px 5px; /* Adjust padding if needed */
+    border-radius: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out; /* Add transition for smooth hover effect */
+  }
+  
+  .custom__button_award:hover {
+    background-color: var(--color-golden); /* Background color on hover */
+    color: var(--color-white); /* Text color on hover */
+  }
+@media screen and (min-width: 2000px) {
+    .custom__button_award,
+    .p__cormorant {
+      font-size: 37px;
+      line-height: 67px;
+    }
+  
+    .p__opensans {
+      font-size: 30px;
+      line-height: 50px;
+    }
+  
+    .headtext__cormorant {
+      font-size: 150px;
+      line-height: 210px;
+    }
+  
+    .spoon__img {
+      width: 50px;
+    }
+  }

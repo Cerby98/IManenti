@@ -18,7 +18,6 @@ import glassWineNotEmpty from '../assets/glass-wine-not-empty.png';
 import rotateWineGlass from '../assets/glass-wine-rotate.png';
 import bottleDesign from '../assets/bottle-design.png';
 import champBottle from '../assets/champ-bottle.png';
-import silver2023 from '../assets/silver-2023.png';
 import gold2023 from '../assets/Barbaresco2.png';
 import plat2023 from '../assets/Barolo2.png';
 import bis2023 from '../assets/bis-2023.png';
@@ -56,7 +55,6 @@ export default {
   glassWineNotEmpty,
   rotateWineGlass,
   bottleDesign,
-  silver2023,
   bis2023,
   gold2023,
   plat2023,

@@ -4,15 +4,21 @@ import { SubHeading } from '../../components';
 import { data } from '../../constants';
 import './Awards.css';
 
-const AwardCard = ({ award: { imgUrl, title, score, region, year } }) => (
+function handleClick(sito) {
+  window.location.href = sito;
+}
+
+const AwardCard = ({ award: { imgUrl, title, origin, grapevariety, soil, ageing, description, link } }) => (
   <div className="app__laurels_awards-card">
     <img src={imgUrl} alt="awards" />
     <div className="app__laurels_awards-card_content">
       <p className="p__cormorant" style={{ color: '#DCCA87' }}>{title}</p>
-      <p className="p__opensans color-black"><strong>Origin:</strong> {score}</p>
-      <p className="p__opensans color-black"><strong>Grape variety:</strong> {region}</p>
-      <p className="p__opensans color-black"><strong>Soil:</strong> {year}</p>
-      <p className="p__opensans color-black"><strong>Description:</strong> {year}</p>
+      <p className="p__opensans color-black"><strong>Origin:</strong> {origin}</p>
+      <p className="p__opensans color-black"><strong>Grape variety:</strong> {grapevariety}</p>
+      <p className="p__opensans color-black"><strong>Soil:</strong> {soil}</p>
+      <p className="p__opensans color-black"><strong>Ageing:</strong> {ageing}</p>
+      <p className="p__opensans color-black"><strong>Description:</strong> {description}</p>
+      <button type="button" className="custom__button_award" onClick={handleClick.bind(null, link)}>Download Technical</button>
     </div>
   </div>
 );
