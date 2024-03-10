@@ -47,22 +47,10 @@
   }
   .app__laurels_awards-card_content {
     display: flex;
-    flex-direction: column;
-    margin-left: none;
-    /* Add justification styling */
-    text-align: justify;
-    /* Pseudo-element for spacing */
-    position: relative;
-  }
-  
-  .app__laurels_awards-card_content::after {
-    content: "                    " /* Adjust spaces as needed */;
-    white-space: pre;
-    position: absolute;
-    top: 0;
-    right: 0;
-    /* Hide the pseudo-element */
-    color: transparent;
+    flex-wrap: wrap; /* Wrap content if it overflows */
+    flex-direction: column; /* Keep content stacked vertically */
+    margin: auto;
+    margin-right: 1rem;
   }
 }
 .button-container {
