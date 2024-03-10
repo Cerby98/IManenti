@@ -47,8 +47,22 @@
   }
   .app__laurels_awards-card_content {
     display: flex;
-    flex-direction: column; /* Keep content stacked vertically */
+    flex-direction: column;
     margin-left: none;
+    /* Add justification styling */
+    text-align: justify;
+    /* Pseudo-element for spacing */
+    position: relative;
+  }
+  
+  .app__laurels_awards-card_content::after {
+    content: "                    " /* Adjust spaces as needed */;
+    white-space: pre;
+    position: absolute;
+    top: 0;
+    right: 0;
+    /* Hide the pseudo-element */
+    color: transparent;
   }
 }
 .button-container {
